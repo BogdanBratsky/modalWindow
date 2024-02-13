@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>gallery</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+
+    <div id="background"></div>
+
+    <header class="header">
+        <nav class="header-nav">
+            <div class="logo">
+                IMAGE GALLERY
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-wrap">
+        <div class="wrap">
+            <div class="other-img-wrap">
+
+                <div class="up">
+                    <img src="img/up.png" alt="">
+                </div>
+
+                <div class="other-images" id="others">
+                    <!-- IMAGE-LIST -->
+                </div>
+
+                <div class="down">
+                    <img src="img/down.png" alt="">
+                </div>
+        
+            </div>
+            <div class="image-block">
+                <img src="" alt="" id="myImg">
+            </div>
+        </div>
+    
+    </main>
+
+    <div class="modal-wrap">
+        <div id="modalWindow">
+            <div class="close">&times;</div>
+            <img src="" alt="" id="modalImg">
+        </div>
+    </div>
+
+    <script src="imageList.js"></script>
+    <script src="otherImages.js"></script>
+    <script src="events.js"></script>
+</body>
+</html>
